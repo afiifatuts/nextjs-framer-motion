@@ -21,7 +21,7 @@ const About = () => (
       <motion.p
       variants={fadeIn('up', 'tween', 0.2,1)}
       className="mt-[8px] font-normal sm:text-[32px] text-[20px]
-      text-center text-secondary-white"
+       text-secondary-white"
       >
       My name is <span className="font-extrabold text-white">Afiifatuts Tsaaniyah Abdullah.</span>
        Frontend and Backend Developer. 
@@ -33,12 +33,6 @@ const About = () => (
       I am quite confident and continue to improve my skills to become a good programmer
       </motion.p>
 
-      <motion.img
-      variants={fadeIn('up', 'tween', 0.3, 1)}
-      src="/arrow-down.svg"
-      alt="arrow down"
-      className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
     </motion.div>
   </section>
 );

@@ -1,11 +1,10 @@
 import { Footer, Navbar } from "../components";
 import {
   About,
-  Explore,
-  Feedback,
   GetStarted,
   Hero,
-  Insights,
+  Project,
+  Technologies,
   WhatsNew,
   World,
 } from "../sections";
@@ -15,23 +14,19 @@ const Page = () => (
     <Navbar />
     <Hero />
     <div className="relative">
-      <About />
+      <Technologies />
+      <Project />
+
       <div className="gradient-03 z-0" />
-      <Explore />
     </div>
 
     <div className="relative">
-      <GetStarted />
+      {/* <About /> */}
       <div className="gradient-04 z-0" />
-      <WhatsNew />
     </div>
-
-    <World />
-
+    <GetStarted />
     <div className="relative">
-      <Insights />
       <div className="gradient-04 z-0" />
-      <Feedback />
     </div>
     <Footer />
   </div>
